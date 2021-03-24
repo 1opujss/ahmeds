@@ -1,0 +1,75 @@
+/* day 34.1,2 video rv */
+@media (max-width:1064px){
+  .fixed-all {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width:1005px){
+  .header-left {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .header-right {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .header-right ul {
+    text-align: center;
+  }
+}
+@media (max-width:764px){
+  .header-right ul li a {
+    display: inline-block;
+    font-size: 19px;
+    padding: 3px 20px;
+    line-height: 52px;
+    border-right: none;
+  }
+  .banner{
+    padding: 150px 0;
+  }
+}
+@media (max-width:758px){
+  .banner {
+    padding: 110px 0;
+  }
+  .bannerText h1 {
+    padding: 6px 40px;
+    font-size: 27px;
+  }
+  .bannerText h2 {
+    max-width: 100%;
+    font-size: 36px;
+    padding: 2px 0;
+    margin-top: 15px;
+  }
+  .serviceItem {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px 0 20px 0;
+  }
+  .blogLeft {
+    width: 100%;
+  }
+  .blogRight {
+    width: 100%;
+  }
+  .footer-left {
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 17px;
+  }
+  .footer-right {
+    width: 100%;
+  }
+  .socialIcon {
+    text-align: center;
+  }
+  .socialIcon li a {
+    font-size: 22px;
+    padding: 0 8px;
+  }
+}
