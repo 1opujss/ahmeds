@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+  max-width: 100%;
+}
+ul{
+  list-style: none;
+}
+a, span{
+  display: inline-block;
+  text-decoration: none;
+}
+.wrapper{
+  max-width: 1270px;
+  margin: auto;
+}
+.tc{
+  text-align: center;
+}
+.tr{
+  text-align: right;
+}
+.d-flex{
+	display: flex;
+}
+.jcb{
+	justify-content: space-between;
+}
+/*  */
+.header-clr{
+  background: #f5deb3;
+}
+.header-area{
+	align-items: center;
+}
+.header-left img {
+	width: 125px;
+	height: auto;
+	/* box-shadow: 0 0 4px 4px #444; */
+}
+.header-right ul{
+  text-align: right;
+}
+.header-right ul li{
+  display: inline-block;
+  margin-left: -4px;
+}
+.header-right ul li a {
+	color: #fff;
+	font-size: 21px;
+	padding: 6px 30px;
+	line-height: 51px;
+	border-right: 1px solid #fff;
+	transition: .6s;
+}
+.header-right ul li a:hover{
+ background: #26819f; 
+}
+/* banner */
+.banner {
+	background: url(https://images2.imgbox.com/27/2e/KbZWsqP3_o.jpg) no-repeat center 43%;
+	background-size: cover;
+	padding: 164px 0;
+	width: 100%;
+}
+.banner-text h2 {
+	color: #3498db;
+	font-size: 30px;
+	margin-bottom: 13px;
+}
+.banner-text h1 {
+	color: #3498db;
+	font-size: 38px;
+}
+/* introduce */
+.myself .wrapper{
+	display: flex;
+	justify-content: space-evenly;
+	column-gap: 8%;
+	padding: 0 7em;
+}
+.myself {
+	padding:80px 0;
+}
+/* .me-img {
+	width:22em;
+}
+.me-describe {
+	width:79%;
+} */
+.me-describe h2 {
+	font-size:25px;
+	margin-top:16px;
+}
+.me-describe h3 {
+	margin: 30px 0;
+	font-weight:bold;
+	font-size:21px;
+}
+.me-describe p {
+	line-height:1.7;
+	font-size:18px;
+	padding-right:50px;
+}
+/* .service */
+span.material-icons{
+	user-select: none;
+}
+.service{
+	background: #fffaf0;
+	padding: 100px 0;
+}
+.service-box{
+	column-gap: 2%;
+}
+.s-box-inner {
+	border:3px dashed #ddd;
+	padding: 29px 30px;
+	border-radius:70px 0;
+}
+.s-box-inner span {
+	font-size:40px;
+	color:#3498db;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border:2px solid #3498db;
+	border-radius:15px 0;
+}
+.s-box-inner h2 {
+	margin:15px 0;
+}
+.s-box-inner p {
+	font-size: 18px;
+font-weight: bold;
+}
+/* footer */
+footer{
+	background: #2c3e50;
+	color: #fff;
+	padding: 20px 0;
+}
+.f-left p{
+	font-size: 20px;
+}
+.f-right{}
+.f-right li{
+	display: inline-block;
+}
+.f-right li a{
+	color: #fff;
+	padding: 0 5px;
+	font-size: 20px;
+}
